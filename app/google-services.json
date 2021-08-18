@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43986013384",
+    "project_id": "geek-place-77925",
+    "storage_bucket": "geek-place-77925.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43986013384:android:8256e8a84965eab5e8e9fd",
+        "android_client_info": {
+          "package_name": "com.example.geekplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43986013384-j7tf1kbkd3mku15ihg3i2vacrshha4t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfbgc-3QfxY8O3dt8rGiM6ncJnMETd0Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43986013384-j7tf1kbkd3mku15ihg3i2vacrshha4t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

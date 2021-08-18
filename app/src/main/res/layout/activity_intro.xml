@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient"
+    tools:context=".view.IntroActivity">
+<TextView
+    android:text="GEEK PLACE"
+    android:textAlignment="center"
+    android:textSize="50sp"
+    android:textColor="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:src="@drawable/ic_baseline_live_tv_24"
+        android:layout_height="200dp"/>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="?attr/colorPrimary"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Login"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/black"
+            android:hint="E-mail" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Senha"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/login_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@color/black"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:hint="Senha" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/logar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Entrar"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/cadastrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cadastrar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="bottom"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

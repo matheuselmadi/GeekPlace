@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    cardElevation="10dp"
+    app:cardBackgroundColor="@color/colorPrimary2"
+    android:layout_margin="10dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/capamovie"
+            android:layout_width="131dp"
+            android:layout_height="189dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_settings_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageCard2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_baseline_star_rate_24"
+            app:layout_constraintStart_toEndOf="@+id/capamovie"
+            app:layout_constraintTop_toBottomOf="@+id/popularidademovie2" />
+
+        <ImageView
+            android:id="@+id/imageCard"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_baseline_date_range_24"
+            app:layout_constraintStart_toEndOf="@+id/capamovie"
+            app:layout_constraintTop_toBottomOf="@+id/datalancamentomovie2" />
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="176dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="Titulo do filme"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/capamovie"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/datalancamentomovie"
+            android:layout_width="148dp"
+            android:layout_height="20dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="Data de lançamento"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageCard"
+            app:layout_constraintTop_toBottomOf="@+id/datalancamentomovie2" />
+
+        <TextView
+            android:id="@+id/datalancamentomovie2"
+            android:layout_width="176dp"
+            android:layout_height="19dp"
+
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="12dp"
+            android:text="Data de lançamento"
+            app:layout_constraintStart_toEndOf="@+id/capamovie"
+            app:layout_constraintTop_toBottomOf="@+id/nome" />
+
+        <TextView
+            android:id="@+id/popularidademovie"
+            android:layout_width="148dp"
+            android:layout_height="20dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="Popularidade"
+            app:layout_constraintStart_toEndOf="@+id/imageCard2"
+            app:layout_constraintTop_toBottomOf="@+id/popularidademovie2" />
+
+        <TextView
+            android:id="@+id/popularidademovie2"
+            android:layout_width="176dp"
+            android:layout_height="20dp"
+
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="16dp"
+            android:text="Avaliação"
+            app:layout_constraintStart_toEndOf="@+id/capamovie"
+            app:layout_constraintTop_toBottomOf="@+id/datalancamentomovie" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/drawable/text_view_background.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/activity_adicionar_filme.xml" value="0.25" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/activity_cadastro.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/activity_editar_receita.xml" value="0.25" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/activity_intro.xml" value="0.2848731884057971" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/activity_login.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/activity_mapa.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/activity_meus_filmes_detalhes.xml" value="0.5" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/fragment_minhas_receitas.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/item_card_meu_filme.xml" value="0.5" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/item_card_simples.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/item_movie.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/Matheus El Madi/AndroidStudioProjects/GeekPlace/app/src/main/res/menu/menu.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/adril/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/activity_adicionar_receita.xml" value="0.4619289340101523" />
+        <entry key="..\:/Users/adril/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/activity_cadastro.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/adril/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/activity_editar_receita.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/adril/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/activity_login.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/adril/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/fragment_minhas_receitas.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/adril/AndroidStudioProjects/GeekPlace/app/src/main/res/layout/item_card_simples.xml" value="0.16893115942028986" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

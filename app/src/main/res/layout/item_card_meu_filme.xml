@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginRight="120dp"
+
+        android:layout_gravity="center"
+        android:id="@+id/item_card_simples"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome do filme"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/edit"
+            android:src="@drawable/ic_baseline_edit_24"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:tint="@color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            app:tint="@color/white"
+            android:id="@+id/delete"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:layout_width="45dp"
+            android:layout_height="45dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
